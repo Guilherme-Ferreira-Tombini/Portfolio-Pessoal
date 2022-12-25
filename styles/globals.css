@@ -10,8 +10,15 @@ body {
 }
 
 a {
+  transition: all 0.5s;
+  cursor: pointer;
   color: inherit;
   text-decoration: none;
+}
+
+a:hover{
+  -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
 }
 
 * {
