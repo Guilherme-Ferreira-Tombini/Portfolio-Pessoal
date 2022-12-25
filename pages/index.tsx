@@ -11,7 +11,9 @@ export default function Home() {
           <Header />
 
           <main className={styles.main}>
-            <Card />
+            <div className={styles.espaco}>
+              <Card />
+            </div>
           </main>
         </div>
       </div>

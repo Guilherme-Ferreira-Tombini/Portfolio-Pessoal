@@ -8,6 +8,7 @@
     justify-items: center;
     background-color: #1A2257;
     border-radius: 10px;
+    border:1px solid white;
 }
 
 .container > h2{
