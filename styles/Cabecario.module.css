@@ -1,0 +1,21 @@
+.cabecario{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  color:white;
+}
+
+.titulo{
+  font-size: 27px;
+}
+
+.menu{
+  display: flex;
+  flex-direction: row;
+}
+
+.menu > h2{
+  font-size: 26px;
+  padding: 30px;
+}
