@@ -6,9 +6,6 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-    background-image: url("../public/fundo.png");
-    background-size:100%;
-    background-repeat: no-repeat;
     font-family: 'Italianno';
 }
 
@@ -27,6 +24,6 @@ a {
 }
 
 ::-webkit-scrollbar-thumb{
-  background-image: linear-gradient(to bottom, rgb(102, 2, 102),rgb(44, 9, 44));
+  background-image: linear-gradient(to bottom, #1A2257,#101433);
   border-radius: 10px;
 }
