@@ -1,5 +1,72 @@
 .footer{
   width:100%;
   background-color: #1A2257;
-  height:5vh;
+  height:15vh;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
 }
+
+.interno{
+  width:90%;
+  height:100%;
+  padding:13px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  height:100%;
+  margin-right: 70px;
+  color:white;
+}
+
+.contatos{
+  font-size: 23px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  height:100%;
+  color:white;
+}
+
+.texto{
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  width:19%;
+  height:100%;
+  color:white;
+}
+
+.icons{
+  display: flex;
+}
+
+.imge > img {
+  width:40px;
+  height:40px;
+  padding:2px;
+}
+
+.titulo{
+  font-size: 45px;
+}
+
+.titulo2{
+  margin-top:-10px;
+  font-size: 20px;
+}
+
+.cop{
+  margin-top:30px;
+}
+
