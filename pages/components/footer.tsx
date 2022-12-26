@@ -7,7 +7,7 @@ export default function Footer() {
 
         <div className={styles.logo}>
           <div className={styles.titulo}>PP</div>
-          <div className={styles.titulo2}>Portfolio Pessoal</div>
+          <div className={styles.titulo2}>Portfólio Pessoal</div>
 
         </div>
 
@@ -15,9 +15,9 @@ export default function Footer() {
           <div>Contato</div>
           <div className={styles.icons}>
             <a className={styles.imge} href="https://www.linkedin.com/in/guilherme-ferreira-tombini-593015247/"><img src="/linkedin.png"></img></a>
-            <a className={styles.imge} href=""><img src="/discord.png"></img></a>
-            <a className={styles.imge} href=""><img src="/email.png"></img></a>
-            <a className={styles.imge} href=""><img src="/instagram.png"></img></a>
+            <a className={styles.imge} href="https://discord.gg/Z94yXG5a43"><img src="/discord.png"></img></a>
+            <a className={styles.imge} href="mailto:ge55544@gmail.com"><img src="/email.png"></img></a>
+            <a className={styles.imge} href="https://www.instagram.com/guilhermetombini/"><img src="/instagram.png"></img></a>
           </div>
         </div>
 

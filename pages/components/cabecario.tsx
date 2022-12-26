@@ -6,7 +6,7 @@ export default function Cabecario() {
     <div className={styles.cabecario}>
       <div className={styles.titulo}>
         <h1><Link href="/" className={styles.pagina}>
-          <a>Portfolio Pessoal</a>
+          <a>Portfólio Pessoal</a>
         </Link></h1>
       </div>
       <div className={styles.menu}>
