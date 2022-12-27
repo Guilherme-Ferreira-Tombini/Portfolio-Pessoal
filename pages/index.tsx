@@ -12,7 +12,7 @@ export default function Home() {
 
           <main className={styles.main}>
             <div className={styles.espaco}>
-              <Card titulo="Seja bem-vindo ao meu portfólio" paragrafo="Aqui você pode ver um pouco sobre mim e ver as tecnologias que geralmente utilizo para minhas aplicações Front-end e Back-end"/>
+              <Card/>
             </div>
           </main>
         </div>

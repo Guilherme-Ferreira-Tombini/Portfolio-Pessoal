@@ -16,7 +16,7 @@ export default function Pagina3() {
           <Header />
 
           <main className={styles.main}>
-            <Card2 paragrafo="Aqui estão os projetos que realizei que estão armazenados no Github" />
+            <Card2/>
           </main>
         </div>
       </div>

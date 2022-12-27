@@ -16,6 +16,7 @@
 }
 
 .container > p{
+   margin-top:-20px;
     font-size: 30px;
     text-align: justify;
 }
@@ -26,10 +27,11 @@
 }
   
  .container > h2{
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .container > p{
+   margin-top:5px;
     font-size: 27px;
     text-align: justify;
 }
