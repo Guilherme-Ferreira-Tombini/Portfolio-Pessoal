@@ -5,10 +5,10 @@ import Footer from './components/footer'
 
 export default function Pagina3() {
 
-  
 
 
-  
+
+
   return (
     <>
       <div className={styles.fundo}>
@@ -16,7 +16,7 @@ export default function Pagina3() {
           <Header />
 
           <main className={styles.main}>
-            <Card2/>
+            <Card2 />
           </main>
         </div>
       </div>

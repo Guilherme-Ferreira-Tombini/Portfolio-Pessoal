@@ -1,4 +1,5 @@
 import styles from '../../styles/Footer.module.css'
+import Image from 'next/image'
 
 export default function Footer() {
   return (
@@ -14,10 +15,10 @@ export default function Footer() {
         <div className={styles.contatos}>
           <div>Contato</div>
           <div className={styles.icons}>
-            <a className={styles.imge} href="https://www.linkedin.com/in/guilherme-ferreira-tombini-593015247/"><img src="/linkedin.png"></img></a>
-            <a className={styles.imge} href="https://discord.gg/Z94yXG5a43"><img src="/discord.png"></img></a>
-            <a className={styles.imge} href="mailto:ge55544@gmail.com"><img src="/email.png"></img></a>
-            <a className={styles.imge} href="https://www.instagram.com/guilhermetombini/"><img src="/instagram.png"></img></a>
+            <a className={styles.imge} href="https://www.linkedin.com/in/guilherme-ferreira-tombini-593015247/"><Image src="/linkedin.png" width="40px" height="40px"/></a>
+            <a className={styles.imge} href="https://discord.gg/Z94yXG5a43"><Image src="/discord.png" width="40px" height="40px"/></a>
+            <a className={styles.imge} href="mailto:ge55544@gmail.com"><Image src="/email.png" width="40px" height="40px"/></a>
+            <a className={styles.imge} href="https://www.instagram.com/guilhermetombini/"><Image src="/instagram.png" width="40px" height="40px"/></a>
           </div>
         </div>
 

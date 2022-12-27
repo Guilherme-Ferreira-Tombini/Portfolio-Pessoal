@@ -12,13 +12,13 @@ export default function Home() {
 
           <main className={styles.main}>
             <div className={styles.espaco}>
-              <Card/>
+              <Card />
             </div>
           </main>
         </div>
       </div>
       <Footer />
-      
+
     </>
   )
 }
