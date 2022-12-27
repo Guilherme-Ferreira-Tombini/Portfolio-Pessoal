@@ -19,3 +19,52 @@
   font-size: 26px;
   padding: 30px;
 }
+
+.icon{
+  display: none;
+}
+
+.botao{
+   background-color: transparent;
+   border: none;
+   transition: all 0.5s;
+  cursor: pointer;
+  color: inherit;
+  text-decoration: none;
+}
+
+.botao:hover{
+  -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+}
+
+.card{
+  display: none;
+}
+
+@media (max-width: 1000px){
+  .icon{
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .menu2{
+    padding: 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    background-color: #1A2257;
+    border-radius: 10px;
+  }
+  
+  .menu{
+    display: none;
+  }
+  
+  .titulo{
+     font-size: 24px;
+  }
+}

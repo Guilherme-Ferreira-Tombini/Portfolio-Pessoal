@@ -1,7 +1,6 @@
 .footer{
   width:100%;
   background-color: #1A2257;
-  height:15vh;
   display:flex;
   flex-direction: column;
   align-items: center;
@@ -14,6 +13,7 @@
   padding:13px;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .logo{
@@ -69,4 +69,12 @@
 .cop{
   margin-top:30px;
 }
+
+@media (max-width: 1000px){
+  .texto{
+    width:100%;
+  }
+}
+
+
 

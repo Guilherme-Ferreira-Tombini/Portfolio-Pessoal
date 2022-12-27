@@ -11,7 +11,7 @@ export default function Pagina2() {
           <Header />
 
           <main className={styles.main}>
-
+          
           </main>
         </div>
       </div>

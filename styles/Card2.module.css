@@ -1,6 +1,6 @@
 .container{
     width: 70%;
-    padding: 30px;
+    padding: 10px;
     color: white;
     display: flex;
     flex-direction: column;
@@ -12,11 +12,7 @@
 }
 
 .container > h2{
-    font-size: 40px;
-}
-
-.container > p{
-    font-size: 30px;
+    font-size: 35px;
     text-align: justify;
 }
 
@@ -26,12 +22,6 @@
 }
   
  .container > h2{
-    font-size: 40px;
+    font-size: 30px;
 }
-
-.container > p{
-    font-size: 27px;
-    text-align: justify;
-}
-  
 }
