@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import styles from '../../styles/Cabecario.module.css'
 
 
@@ -24,7 +25,7 @@ export default function Cabecario() {
       </div>
 
       <div className={styles.icon}>
-       <button className={styles.botao}><img src="/icone.png"></img></button> 
+       <button className={styles.botao}><Image src="/icone.png" width="40px" height="40px"/></button> 
       </div>
 
       <div className={styles.card}>
