@@ -67,4 +67,10 @@
   .titulo{
      font-size: 19px;
   }
+  .card{
+    position:absolute;
+    width: 100%;
+    border:1px solid white;
+    border-radius: 10px;
+  }
 }
