@@ -1,24 +1,18 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import styles from '../../styles/Cabecario.module.css'
+import { useState } from 'react';
 
 
 export default function Cabecario() {
 
-  const aparecer = () => {
-    let btn = document.querySelector('#button') as HTMLLIElement
-   
-    btn.onclick = function () {
-      let card = document.querySelector('#card') as HTMLLIElement
-        if (card.style.display == 'none') card.style.display = 'block';
-        else card.style.display = 'none';
-    }
-  };
+const [isCardOpen, setIsCardOpen] = useState(false)
+
 
 
   return (
     <>
-    <div id="card" className={styles.card}>
+    <div id="card" className={styles.card} style={{display: isCardOpen ? 'block' : 'none'}}>
       <div className={styles.menu2}>
         <h2><Link href="../pagina2" className={styles.pagina}>
           <a>Sobre mim</a>
@@ -51,7 +45,7 @@ export default function Cabecario() {
       </div>
 
       <div className={styles.icon}>
-       <button onClick={() => aparecer()} id="button" className={styles.botao}><Image id="img" src="/icone.png" width="40px" height="40px"/></button> 
+       <button onClick={() => isCardOpen ? setIsCardOpen(false) : setIsCardOpen(true)} id="button" className={styles.botao}><Image id="img" src="/icone.png" width="40px" height="40px"/></button> 
       </div>
       </div>
       </>
