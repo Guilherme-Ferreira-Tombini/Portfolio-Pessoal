@@ -1,6 +1,6 @@
 import styles from '../styles/Home.module.css'
 import Header from './components/cabecario';
-import Card from './components/card1';
+import Card_Hab from './components/card_habilidades';
 import Footer from './components/footer'
 
 export default function Pagina4() {
@@ -11,7 +11,7 @@ export default function Pagina4() {
           <Header />
 
           <main className={styles.main}>
-
+          <Card_Hab/>
           </main>
         </div>
       </div>

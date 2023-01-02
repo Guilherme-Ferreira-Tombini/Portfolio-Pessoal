@@ -1,6 +1,6 @@
-import styles from '../styles/Home.module.css'
+import styles from '../styles/Pagina2.module.css'
 import Header from './components/cabecario';
-import Card from './components/card1';
+import Card_sobre from './components/card_sobre_mim';
 import Footer from './components/footer'
 
 export default function Pagina2() {
@@ -11,7 +11,7 @@ export default function Pagina2() {
           <Header />
 
           <main className={styles.main}>
-          
+          <Card_sobre/>
           </main>
         </div>
       </div>
