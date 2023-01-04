@@ -1,4 +1,4 @@
-import styles from '../styles/Home.module.css'
+import styles from '../styles/Pagina3.module.css'
 import Header from './components/cabecario';
 import Card2 from './components/card2';
 import Footer from './components/footer'
@@ -13,7 +13,9 @@ export default function Pagina3() {
 
           <main className={styles.main}>
             <Card2 />
+            <div className={styles.espaco}>
             <CardGit/>
+            </div>
           </main>
         </div>
       </div>

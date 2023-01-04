@@ -1,0 +1,63 @@
+.container{
+    width: 880px;
+    margin: 20px;
+    padding: 30px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    background-color: #1A2257;
+    border-radius: 40px;
+    border:1px solid white;
+}
+
+
+.container > p{
+   margin-top:-20px;
+    font-size: 30px;
+    text-align: justify;
+}
+
+.linguagem{
+    display: flex;
+    margin-left: 100px;
+    margin-right: 10px;
+}
+
+.bola{
+    width: 20px;
+    height: 20px;
+    background-color: green;
+    border-radius: 40px;
+    margin-top:23px;
+    margin-right: 7px;
+}
+
+.part2{
+    display: flex;
+    flex-direction: column;
+}
+
+.part1{
+    font-size: 25px;
+}
+
+.part1 > a{
+    font-size: 16px;
+}
+
+@media (max-width: 1000px){
+.container{
+    width: 90%;
+}
+  
+ .container > h2{
+    font-size: 30px;
+}
+
+.container > p{
+   margin-top:5px;
+    font-size: 27px;
+    text-align: justify;
+}
+  
+}

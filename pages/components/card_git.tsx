@@ -1,10 +1,19 @@
-import styles from '../../styles/Card1.module.css'
+import styles from '../../styles/Card_git.module.css'
 import { useState, useEffect } from "react";
+import moment from 'moment';
+
+export interface ProjetoData{
+  name: string;
+  language: string;
+  pushed_at: any;
+  html_url: string;
+}
 
 export default function Card_git() {
- 
+  moment.locale('pt-br');
+
   const [loading, setLoading] = useState(false);
-  const [data, setData] = useState(null);
+  const [data, setData] = useState<ProjetoData[]>([]);
 
   const fetchAPI = async() =>{
      try {
@@ -24,10 +33,35 @@ export default function Card_git() {
   }, [])
 
   return (
-    <div className={styles.container}>
+    <div>
    {loading && !data &&
+     <div className={styles.container}>
      <h5>Carregando Projetos.......</h5>
+     </div>
    }
+   <>
+   {data && data.map(projeto =>{
+     return(
+      <div className={styles.container}>
+        <div className={styles.part1}>
+          <h1>{projeto.name}</h1>
+          <a href={projeto.html_url}>{projeto.html_url}</a>
+          </div>
+
+        <div className={styles.part2}>
+          <div className={styles.linguagem}>
+            <div className={styles.bola}></div>
+            <h2>{projeto.language}</h2>
+          </div>
+          <div>
+            <h2>Ultima edição: {moment(projeto.pushed_at).format('L')}</h2>
+            </div>
+        </div>
+
+      </div>
+     )
+   })}
+   </>
     </div>
   )
 }
