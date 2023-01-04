@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import moment from 'moment';
 
 export interface ProjetoData{
+  id: number;
   name: string;
   language: string;
   pushed_at: any;
@@ -42,7 +43,7 @@ export default function Card_git() {
    <>
    {data && data.map(projeto =>{
      return(
-      <div className={styles.container}>
+      <div key={projeto.id}className={styles.container}>
         <div className={styles.part1}>
           <h1>{projeto.name}</h1>
           <a href={projeto.html_url}>{projeto.html_url}</a>
