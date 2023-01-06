@@ -43,7 +43,7 @@ export default function Card_git() {
    <>
    {data && data.map(projeto =>{
      return(
-      <div key={projeto.id}className={styles.container}>
+      <div key={projeto.id} className={styles.container}>
         <div className={styles.part1}>
           <h1>{projeto.name}</h1>
           <a href={projeto.html_url}>{projeto.html_url}</a>
@@ -54,7 +54,7 @@ export default function Card_git() {
             <div className={styles.bola}></div>
             <h2>{projeto.language}</h2>
           </div>
-          <div>
+          <div className={styles.edicao}>
             <h2>Ultima edição: {moment(projeto.pushed_at).format('L')}</h2>
             </div>
         </div>
