@@ -1,4 +1,4 @@
-import styles from '../styles/Home.module.css'
+import styles from '../styles/Pagina4.module.css'
 import Header from './components/cabecario';
 import Card_Hab from './components/card_habilidades';
 import Footer from './components/footer'
