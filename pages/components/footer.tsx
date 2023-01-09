@@ -1,5 +1,6 @@
 import styles from '../../styles/Footer.module.css'
 import Image from 'next/image'
+import moment from 'moment';
 
 export default function Footer() {
   return (
@@ -23,7 +24,7 @@ export default function Footer() {
         </div>
 
         <div className={styles.texto}>
-          <div className={styles.cop}>© 2022 Guilherme Ferreira Tombini</div>
+          <div className={styles.cop}>© {moment().format('YYYY')} Guilherme Ferreira Tombini</div>
         </div>
       </div>
     </footer>
