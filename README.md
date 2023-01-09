@@ -35,4 +35,10 @@ Depois instalar o `Node.js` na sua maquina.
 
 ## Autores
 
-[<img src="" width=115><br><sub>Guilherme Ferreira Tombini</sub>](https://github.com/Guilherme-Ferreira-Tombini)]
+[<img src="https://avatars.githubusercontent.com/u/85890520?v=4" width=115><br><sub>Guilherme Ferreira Tombini</sub>](https://github.com/Guilherme-Ferreira-Tombini)
+
+No desenvolvimento tive uma ajuda do igorviniciussantana, em alguns pontos da aplicação:
+
+[<img src="https://avatars.githubusercontent.com/u/86114583?v=4" width=115><br><sub>Igor Vinicius Santana</sub>](https://github.com/)
+
+
