@@ -2,6 +2,7 @@ import styles from '../../styles/Card_git.module.css'
 import { useState, useEffect } from "react";
 import moment from 'moment';
 
+
 export interface ProjetoData{
   id: number;
   name: string;
@@ -12,7 +13,6 @@ export interface ProjetoData{
 
 export default function Card_git() {
   moment.locale('pt-br');
-
   const [loading, setLoading] = useState(false);
   const [data, setData] = useState<ProjetoData[]>([]);
 
@@ -55,7 +55,7 @@ export default function Card_git() {
             <h2>{projeto.language}</h2>
           </div>
           <div className={styles.edicao}>
-            <h2>Ultima edição: {moment(projeto.pushed_at).format('L')}</h2>
+            <h2>Ultima edição: {moment(projeto.pushed_at).format('DD/MM/YYYY')}</h2>
             </div>
         </div>
 
