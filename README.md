@@ -35,4 +35,4 @@ Depois instalar o `Node.js` na sua maquina.
 
 ## Autores
 
-[<img src="https://avatars.githubusercontent.com/u/37356058?v=4" width=115><br><sub>Guilherme Ferreira Tombini</sub>](https://github.com/Guilherme-Ferreira-Tombini)]
+[<img src="" width=115><br><sub>Guilherme Ferreira Tombini</sub>](https://github.com/Guilherme-Ferreira-Tombini)]
