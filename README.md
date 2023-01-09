@@ -1,24 +1,38 @@
-Welcome to the NextJS base template bootstrapped using the `create-next-app`. This template supports TypeScript, but you can use normal JavaScript as well.
 
-## Getting Started
+# Portfólio Pessoal
 
-Hit the run button to start the development server.
+Esse site serve como meu Portfólio para mostrar um pouco dos meus conhecimentos e treino das minhas habilidades no Next
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on `/api/hello`. This endpoint can be edited in `pages/api/hello.ts`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-## Learn More
+## Tecnologias Utilizadas
 
-To learn more about Next.js, take a look at the following resources:
+* [Node.js](https://nodejs.org/pt-br/docs/)
+* [Next.js](https://nextjs.org/docs/getting-started)
+* [TypeScript](https://www.typescriptlang.org/docs/)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-## Productionizing your Next App
+## Imagens da aplicação
+## Como iniciar o projeto
 
-To make your next App run smoothly in production make sure to [turn this repl to an always-on repl.](https://docs.replit.com/hosting/enabling-always-on)
+Depois de baixado o projeto no seu computador você deve executar a instalação das dependencias:
 
-You can also produce a production build by running `npm run build` and [changing the run command](https://docs.replit.com/programming-ide/configuring-repl#run) to `npm run start`.
+`npm i` ou `npm install`
+
+Depois é só seguir os passos para executar:
+
+`npm run build`
+
+`npm run dev`
+
+O `npm run dev` serve para conseguir rodar a aplicação na sua maquina local, no caso, como padrão, o http://localhost:3000
+
+### O que é necessario para rodar o projeto?
+
+No caso a pessoa tem que ter instalado um editor editor de código-fonte, como o VSCode.
+Depois instalar o `Node.js` na sua maquina.
+
+## Autores
+
+[<img src="https://avatars.githubusercontent.com/u/37356058?v=4" width=115><br><sub>Guilherme Ferreira Tombini</sub>](https://github.com/Guilherme-Ferreira-Tombini)]
