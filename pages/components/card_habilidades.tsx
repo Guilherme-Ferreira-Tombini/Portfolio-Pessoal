@@ -14,12 +14,12 @@ export default function Card_habilidades() {
   return (
     <>
     <div className={styles.container}>
-      <div><a onClick={() =>isCard1Open ? setIsCard1Open(false) : setIsCard1Open(true)}><Image src="/figma.png" width="100px" height="100px"/></a></div>
-      <div><a onClick={() => isCard2Open ? setIsCard2Open(false) : setIsCard2Open(true)}><Image src="/html-5.png" width="100px" height="100px"/></a></div>
-      <div><a onClick={() => isCard3Open ? setIsCard3Open(false) : setIsCard3Open(true)}><Image src="/css-3.png" width="100px" height="100px"/></a></div>
-      <div><a onClick={() => isCard4Open ? setIsCard4Open(false) : setIsCard4Open(true)}><Image src="/js.png" width="100px" height="100px"/></a></div>
-      <div><a onClick={() => isCard5Open ? setIsCard5Open(false) : setIsCard5Open(true)}><Image src="/node-js.png" width="100px" height="100px"/></a></div>
-      <div><a onClick={() => isCard6Open ? setIsCard6Open(false) : setIsCard6Open(true)}><Image src="/react.png" width="100px" height="100px"/></a></div>
+      <div><a onClick={() =>isCard1Open ? setIsCard1Open(false) : setIsCard1Open(true)}><img className={styles.img} src="/figma.png"/></a></div>
+      <div><a onClick={() => isCard2Open ? setIsCard2Open(false) : setIsCard2Open(true)}><img className={styles.img} src="/html-5.png"/></a></div>
+      <div><a onClick={() => isCard3Open ? setIsCard3Open(false) : setIsCard3Open(true)}><img className={styles.img} src="/css-3.png"/></a></div>
+      <div><a onClick={() => isCard4Open ? setIsCard4Open(false) : setIsCard4Open(true)}><img className={styles.img} src="/js.png"/></a></div>
+      <div><a onClick={() => isCard5Open ? setIsCard5Open(false) : setIsCard5Open(true)}><img className={styles.img} src="/node-js.png"/></a></div>
+      <div><a onClick={() => isCard6Open ? setIsCard6Open(false) : setIsCard6Open(true)}><img className={styles.img} src="/react.png"/></a></div>
     </div>
 
     <div className={styles.card} style={{ display: isCard1Open ? "block" : "none" }}>

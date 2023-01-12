@@ -10,8 +10,17 @@
     margin-top: -20px;
 }
 
+.img{
+  width: 100px;
+  height: 100px;
+}
+
 @media (max-width: 1000px){
   .container{
-    padding: 0;
+    margin-left: -140px;
+  }
+  .img{
+    width: 60px;
+    height: 60px;
   }
 }
