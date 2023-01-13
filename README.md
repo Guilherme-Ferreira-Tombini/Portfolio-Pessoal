@@ -12,13 +12,11 @@ Esse site serve como meu Portfólio para mostrar um pouco dos meus conhecimentos
 * [Next.js](https://nextjs.org/docs/getting-started)
 * [TypeScript](https://www.typescriptlang.org/docs/)
 
-
-## Imagens da aplicação
-
 ## O que é necessario para rodar o projeto?
 
-No caso a pessoa tem que ter instalado um editor de código-fonte, como o VSCode.
+No caso a pessoa tem que ter instalado um editor como o VSCode.
 Depois instalar o `Node.js` na sua maquina e baixar o projeto que está no github.
+Para isso faça uma pasta em seu computador e abra ele com o seu editor de código-fonte, depois abrindo o terminal no VSCode, digite `git init` e logo após digite `git clone https://github.com/Guilherme-Ferreira-Tombini/Portfolio-Pessoal.git`, para assim clonar o código para sua maquina.
 
 ## Como iniciar o projeto
 
